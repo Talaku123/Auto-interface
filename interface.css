@@ -1,0 +1,103 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  height: 50dvh;
+  width: 100%;
+}
+
+.grid-container
+{
+
+  display: grid;
+  grid-template-columns: repeat(6, 4fr);
+  grid-template-rows: auto;
+  padding: 40px;
+  text-align: center;
+}
+.grid-container > div
+{
+  
+  padding: 50px 0;
+}
+.circle-zero,
+.circle-one,
+.circle-third,
+.circle-four,
+.circle-five,
+.circle-six,
+.circle-seven,
+.circle-eight,
+.circle-nine,
+.circle-ten
+{
+  border: 4px solid rgb(251, 252, 255);
+  font-size: 30px;
+  padding: 20px;
+}
+.circle-zero
+{
+  background-color: rgb(207, 207, 210);
+  grid-row: 3/7;
+}
+.circle-one
+{
+  background-color: tomato;
+  font-size: 40px;
+  grid-column: 1/8;
+}
+.circle-third
+{
+  background-color: darkgoldenrod;
+  color: antiquewhite;
+  grid-row: 3/5;
+}
+.circle-four
+{
+
+  background-color: rgb(32, 194, 14);
+  color: rgb(23, 23, 23);
+  grid-column: 1/3;
+}
+.circle-five
+{
+  background-color: rgb(10, 93, 144);
+  color: #ffffff;
+  grid-column: 4/7;
+}
+.circle-six
+{
+  background-color: rgb(106, 1, 1);
+  color: yellow;
+  grid-column: 4/6;
+}
+.circle-seven
+{
+  background-color: lime;
+}
+.circle-eight
+{
+  background-color: rgb(196, 248, 243);
+  color: rgb(53, 126, 230);
+  font-size: 80px;
+  grid-row: 2/6;
+}
+.circle-nine
+{
+  grid-row: 6/7;
+  
+}
+.circle-ten
+{
+  background-color: blueviolet;
+  color: snow;
+  grid-column: 3/7;
+}
